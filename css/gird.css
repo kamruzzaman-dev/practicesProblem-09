@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar start */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    padding: 5px 30px;
+    border-bottom: 3px solid tomato ;
+    box-shadow: 10px 0px 5px black;;
+}
+a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+.fas{
+    color: black;
+    padding: 0px 10px;
+}
+.fas:hover,a:hover{
+    color: tomato;
+}
+/* navbar end */
+h1{
+    margin-top: 20px;
+    padding: 40px 20px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: tomato;
+
+}
+
+.gird-contianer{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr) 2fr;
+    grid-gap: 10px;
+
+}
+.grid-cell{
+    font-size: 2em;
+    border: 2px solid skyblue;
+    text-align: center;
+    text-transform: capitalize;
+}
