@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    padding: 5px 30px;
+}
+a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+.fas{
+    color: black;
+    padding: 0px 10px;
+}
+.fas:hover,a:hover{
+    color: tomato;
+}
+
+.logIn-form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+}
+
+.child>input {
+    padding-left: 10px;
+    font-size: 1.2em;
+    margin: 5px;
+}
+
+#button {
+    background-color: tomato;
+    border: 2px solid transparent;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#button:hover {
+    border: 2px solid tomato;
+    color: tomato;
+    background-color: white;
+}
