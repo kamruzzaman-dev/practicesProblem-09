@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photo album</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* navbar start */
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            font-size: 2em;
+            padding: 5px 30px;
+            border-bottom: 3px solid tomato;
+            box-shadow: 10px 0px 5px black;
+            ;
+        }
+
+        a {
+            padding: 0 20px;
+            text-decoration: none;
+            color: black;
+            text-transform: capitalize;
+        }
+
+        .fas {
+            color: black;
+            padding: 0px 10px;
+        }
+
+        .fas:hover,
+        a:hover {
+            color: tomato;
+        }
+
+        /* navbar end */
+        .fullBox {
+            margin: 20px auto;
+            width: 80%;
+            background-color: black;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .contianer {
+            width: 40vh;
+            height: 170px;
+            border: 4px solid tomato;
+            border-radius: 10px;
+            position: relative;
+            margin: 20px 40px;
+            /* display flex + responsive korte hole tar parent ke property dite hobe*/
+        }
+        .details {
+            display: none;
+            position: absolute;
+            width: 40vh;
+            height: 170px;
+            top: 0;
+            color: white;
+            background-color: rgba(255, 99, 71, 0.452);
+        }
+
+        .contianer:hover .details {
+            display: block;
+        }
+
+        
+        .photo-fram img {
+            width: 40vh;
+            height: 170px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        .details h1 {
+            text-align: center;
+            background-color: black;
+            margin: 20px 0px;
+        }
+
+        .details p {
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="#">home</a>
+                <a href="#">products</a>
+                <a href="./grid.html">gird</a>
+                <a href="./photoAlbum.html">photo</a>
+                <a href="#">about us</a>
+            </div>
+            <div>
+                <a href="./login.html"><i class="fas fa-user-alt"></i></a>
+                <i class="fas fa-sign-out-alt"></i>
+            </div>
+        </nav>
+    </header>
+    <div class="fullBox">
+        <div class="contianer">
+            <div class="photo-fram">
+                <img src="image/image01.jfif" alt="">
+            </div>
+            <div class="details">
+                <h1>sunset view in gram</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt impedit error ab, ad sint
+                    accusantium quidem eius corrupti ut.</p>
+            </div>
+        </div>
+        <div class="contianer">
+            <div class="photo-fram">
+                <img src="image/9.jpg" alt="">
+            </div>
+            <div class="details">
+                <h1>sunset view in gram</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt impedit error ab, ad sint
+                    accusantium quidem eius corrupti ut.</p>
+            </div>
+        </div>
+        <div class="contianer">
+            <div class="photo-fram">
+                <img src="image/8.jpg" alt="">
+            </div>
+            <div class="details">
+                <h1>sunset view in gram</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt impedit error ab, ad sint
+                    accusantium quidem eius corrupti ut.</p>
+            </div>
+        </div>
+        <div class="contianer">
+            <div class="photo-fram">
+                <img src="image/7.webp" alt="">
+            </div>
+            <div class="details">
+                <h1>sunset view in gram</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt impedit error ab, ad sint
+                    accusantium quidem eius corrupti ut.</p>
+            </div>
+        </div>
+        <div class="contianer">
+            <div class="photo-fram">
+                <img src="image/6.jpg" alt="">
+            </div>
+            <div class="details">
+                <h1>sunset view in gram</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt impedit error ab, ad sint
+                    accusantium quidem eius corrupti ut.</p>
+            </div>
+        </div>
+        <div class="contianer">
+            <div class="photo-fram">
+                <img src="image/5.webp" alt="">
+            </div>
+            <div class="details">
+                <h1>sunset view in gram</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt impedit error ab, ad sint
+                    accusantium quidem eius corrupti ut.</p>
+            </div>
+        </div>
+        <div class="contianer">
+            <div class="photo-fram">
+                <img src="image/4.jpg" alt="">
+            </div>
+            <div class="details">
+                <h1>sunset view in gram</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt impedit error ab, ad sint
+                    accusantium quidem eius corrupti ut.</p>
+            </div>
+        </div>
+        <div class="contianer">
+            <div class="photo-fram">
+                <img src="image/3.jfif" alt="">
+            </div>
+            <div class="details">
+                <h1>sunset view in gram</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt impedit error ab, ad sint
+                    accusantium quidem eius corrupti ut.</p>
+            </div>
+        </div>
+        <div class="contianer">
+            <div class="photo-fram">
+                <img src="image/2.jpg" alt="">
+            </div>
+            <div class="details">
+                <h1>sunset view in gram</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt impedit error ab, ad sint
+                    accusantium quidem eius corrupti ut.</p>
+            </div>
+        </div>
+        <div class="contianer">
+            <div class="photo-fram">
+                <img src="image/1.jpg" alt="">
+            </div>
+            <div class="details">
+                <h1>sunset view in gram</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt impedit error ab, ad sint
+                    accusantium quidem eius corrupti ut.</p>
+            </div>
+        </div>
+        <div class="contianer">
+            <div class="photo-fram">
+                <img src="image/4.jpg" alt="">
+            </div>
+            <div class="details">
+                <h1>sunset view in gram</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt impedit error ab, ad sint
+                    accusantium quidem eius corrupti ut.</p>
+            </div>
+        </div>
+        <div class="contianer">
+            <div class="photo-fram">
+                <img src="image/5.webp" alt="">
+            </div>
+            <div class="details">
+                <h1>sunset view in gram</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt impedit error ab, ad sint
+                    accusantium quidem eius corrupti ut.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/f0ecdff264.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
