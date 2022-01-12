@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .contianer{
+        width: 80%;
+        height: 100vh;
+        margin: 0 auto;
+        border: 2px solid tan;
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .text{
+        text-transform: capitalize;
+        /* border: 2px solid teal; */
+        color: transparent;
+        position: relative;
+        position: top right;
+        font-size: 40px;
+        white-space: nowrap;
+    }
+    .text::before{
+        /* div eer bitore direct dite hobe text ta  */
+        content: 'welcome in my website';
+        position:absolute;
+        top: 0;
+        left: 0;
+        color: tomato;
+        animation: typing 3s linear infinite;
+
+    }
+
+    /* animation keyfrmae making */
+    @keyframes typing{
+        0%{
+            content: 'w|';
+        }
+        4%{
+            contain: 'we|';
+        }
+        8%{
+            contain: 'wel|';
+        }
+        12%{
+            contain:'welc|'
+        }
+        16%{
+            contain: 'welco|';
+        }
+        20%{
+            contain: 'welcome|';
+        }
+        23%{
+            contain: 'weclome |';
+        }
+        27%{
+            contain: 'welcome i |';
+        }
+        31%{
+            contain: 'welcome in|';
+        }
+        34%{
+            contain: 'welcome in |';
+        }
+        38%{
+            contain: 'welcome in m|';
+        }
+        42%{
+            contain: 'welcome in my|';
+        }
+        46%{
+            contain: 'welcome in my w|';
+        }
+        50%{
+            contain: 'welcome in my we|';
+        }
+        54%{
+            contain: 'welcome in my web|';
+        }
+        58%{
+            contain: 'welcome in my webs|';
+        }
+        62%{
+            contain: 'welcome in my websi|';
+        }
+        66%{
+            contain: 'weclome in my websit|';
+        }
+        74%{
+            contain: 'welcome in my website|';
+        }
+        75%{
+            contain: 'welcome in my websit|';
+        }
+        76%{
+            contain: 'welcome in my websi|';
+        }
+        78%{
+            contain: 'welcome in my webs|';
+        }
+        80%{
+            contain: 'welcome in my web|';
+        }
+        82%{
+            contain: 'welcome in my we|';
+        }
+        84%{
+            contain: 'welcome in my w|';
+        }
+        86%
+        {
+            contain: 'welcome in my|';
+        }
+        88%{
+            contain: 'welcome in m|';
+        }
+        90%{
+            contain: 'welcome in|';
+        }
+        92%{
+            contain: 'welcome i|';
+        }
+        94%{
+            contain: 'welcome|';
+        }
+        95%{
+            contain: 'welco|';
+        }
+        96%{
+            contain: 'welc|';
+        }
+        97%{
+            contain: 'wel|';
+
+        }
+        98%{
+            contain: 'we|';
+        }
+        100%{
+            contain: '|';
+
+        }
+    }
+</style>
+<body>
+    <div class="contianer">
+        <div class="text">
+            welcome in my website
+            <!-- h1 tag diye animation korle problem hoy keo -->
+        </div>
+    </div>
+</body>
+</html>
