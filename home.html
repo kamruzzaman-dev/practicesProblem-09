@@ -25,14 +25,15 @@
     }
     .text{
         text-transform: capitalize;
-        /* border: 2px solid teal; */
+        border: 2px solid teal;
         color: transparent;
         position: relative;
         position: top right;
-        font-size: 40px;
+        font-size: 60px;
         white-space: nowrap;
+        color: black;
     }
-    .text::before{
+    .text::after{
         /* div eer bitore direct dite hobe text ta  */
         content: 'welcome in my website';
         position:absolute;
@@ -44,7 +45,8 @@
     }
 
     /* animation keyfrmae making */
-    @keyframes typing{
+
+    /* @keyframes typing{
         0%{
             content: 'w|';
         }
@@ -55,7 +57,7 @@
             contain: 'wel|';
         }
         12%{
-            contain:'welc|'
+            contain:'welc|';
         }
         16%{
             contain: 'welco|';
@@ -153,13 +155,14 @@
             contain: '|';
 
         }
-    }
+    } */
+
+
 </style>
 <body>
     <div class="contianer">
         <div class="text">
-            welcome in my website
-            <!-- h1 tag diye animation korle problem hoy keo -->
+            welcome in my website  <!-- h1 tag diye animation korle problem hoy keo -->
         </div>
     </div>
 </body>
